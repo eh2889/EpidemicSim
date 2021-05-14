@@ -17,4 +17,5 @@ I (infected): The cell is currently infected. Displayed red on the map.
 When a cell is infected, it has the potential to infect neighboring cells, it might recover after a certain time (revert to state S), or it might die (move to state R).  Initially all cells will be susceptible and only one cell will be infected. The details about how and when these changes occur are described below. 
 
 Time is measured in discrete steps. After a number of steps, the disease will have spread and infected a number of cells. Some may have recovered and others may have died. The map might look something like this: 
+
 <img width="362" alt="map2" src="https://user-images.githubusercontent.com/55852181/118294292-91e2d700-b4a8-11eb-8c01-81c5ff6d2e06.png">
